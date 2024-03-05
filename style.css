@@ -26,6 +26,8 @@ body {
 }
 .hero-text {
     display: flex;
+    gap: 32px;
+    justify-content: space-around;
 }
 .main-text-image-wrapper {
     display: flex;
@@ -44,8 +46,9 @@ body {
 }
 
 .hero-text img{
-    width: 400px;
-    height: 300px;
+    border: 1px solid yellow;
+    max-width: 350px;
+    max-height: 250px;
     overflow: hidden;
 }
 ul, a {
