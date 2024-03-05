@@ -34,18 +34,21 @@ body {
 .hero-text {
     display: flex;
     gap: 32px;
-    padding: 16px;
+    justify-content: space-around;
+    padding: 64px 16px;
 }
 .hero-text-left {
     display: flex;
-    flex-flow: column;
+    flex-flow: column wrap;
     color: #e2e7eb;
+    max-width: 275px;
 }
 .hero-text-left div {
     font-weight: lighter;
-    font-size: 0.9rem;
+    font-size: 14px;
 }
 .sign-up-hero {
+    margin-top: 8px;
     background-color: #3882f6;
     color: white;
     border-radius: 4px;
@@ -72,14 +75,10 @@ body {
 .hero-image-right {
     display: flex;
     min-height: 50px;
-    min-width: 300px;
+    min-width: 30px;
     background-color: #e5e7eb;
     align-items: center;
     justify-content: center;
-}
-.hero-image-right img{
-    max-width: 200px;
-    max-height: 100px;
 }
 ul, a {
     list-style-type: none;
