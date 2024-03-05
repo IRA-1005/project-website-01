@@ -50,6 +50,7 @@ body {
     max-width: 350px;
     max-height: 250px;
     overflow: hidden;
+    float: right;
 }
 ul, a {
     list-style-type: none;
