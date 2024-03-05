@@ -15,9 +15,7 @@ body {
     font-weight: 600;
     font-size: 16px;
 }
-.right-links {
-    text-align: center;
-}
+
 .right-links ul {
     display: flex;
     gap: 1rem;
@@ -34,8 +32,8 @@ body {
 .hero-text {
     display: flex;
     gap: 32px;
-    justify-content: space-around;
-    padding: 64px 16px;
+    justify-content: space-evenly;
+    padding: 64px 0px;
 }
 .hero-text-left {
     display: flex;
@@ -56,7 +54,15 @@ body {
     align-self: flex-start;
     padding: 4px 18px;
 }
-
+/* Duck image align/float experiments
+.hero-image-right img {
+    max-width: 300px;
+    max-height: 150px;
+}
+*/
+.main-text-title {
+    text-align: center;
+}
 .main-text-image-wrapper {
     display: flex;
     flex-flow:row wrap;
@@ -72,14 +78,16 @@ body {
     width: 100px;
     height: 100px;
 }
+
 .hero-image-right {
     display: flex;
     min-height: 50px;
-    min-width: 30px;
+    min-width: 350px;
     background-color: #e5e7eb;
     align-items: center;
     justify-content: center;
 }
+
 ul, a {
     list-style-type: none;
     text-decoration: none;
