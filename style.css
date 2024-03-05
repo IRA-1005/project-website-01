@@ -29,6 +29,10 @@ body {
     gap: 32px;
     justify-content: space-around;
 }
+.hero-text-left {
+    display: flex;
+    flex-flow: column;
+}
 .main-text-image-wrapper {
     display: flex;
     flex-flow:row wrap;
@@ -50,7 +54,6 @@ body {
     max-width: 100px;
     max-height: 100px;
     overflow: hidden;
-    float: right;
 }
 ul, a {
     list-style-type: none;
