@@ -1,5 +1,4 @@
 body {
-    font-size: 18px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     flex-flow: column;
@@ -8,15 +7,20 @@ body {
 .links {
     display: flex;
     justify-content: space-around;
+    padding: 16px;
 }
-.links p {
+.header-logo {
+    display: flex;
     font-weight: 600;
+    font-size: 16px;
+}
+.right-links {
+    text-align: center;
 }
 .right-links ul {
     display: flex;
     gap: 1rem;
     font-weight: 200;
-    padding: 1rem;
 }
 .header-wrapper, .footer {
     display: flex;
@@ -27,11 +31,22 @@ body {
 .hero-text {
     display: flex;
     gap: 32px;
-    justify-content: space-around;
+    padding: 16px;
 }
 .hero-text-left {
     display: flex;
     flex-flow: column;
+    color: #e2e7eb;
+}
+.hero-text-left div {
+    font-weight: lighter;
+    font-size: 0.9rem;
+}
+.sign-up-hero {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+    box-shadow: none;
 }
 .main-text-image-wrapper {
     display: flex;
@@ -48,12 +63,17 @@ body {
     width: 100px;
     height: 100px;
 }
-
-.hero-text img{
-    border: 1px solid yellow;
-    max-width: 100px;
+.hero-image-right {
+    display: flex;
+    min-height: 200px;
+    min-width: 400px;
+    background-color: #e5e7eb;
+    align-items: center;
+    justify-content: center;
+}
+.hero-image-right img{
+    max-width: 200px;
     max-height: 100px;
-    overflow: hidden;
 }
 ul, a {
     list-style-type: none;
@@ -61,4 +81,8 @@ ul, a {
     margin: 0;
     padding: 0;
     color: #e2e7eb;
+    font-size: 14px;
+}
+.footer {
+justify-self: flex-end;
 }
