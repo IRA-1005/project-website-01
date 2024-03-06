@@ -30,7 +30,7 @@ body {
 /* Hero section styling */
 .hero-text {
     display: flex;
-    gap: 128px;
+    gap: 18vw;
     justify-content: center;
     margin: 64px 0px;
 }
