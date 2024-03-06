@@ -116,6 +116,37 @@ body {
 #quote-owner {
     text-align: end;
 }
+/*CTA styling*/
+.cta-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.cta-box {
+    display: flex;
+    justify-content: center;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+    margin: 84px 0px;
+    font-weight: 200;
+    gap: 84px;
+    min-width: 65vw;
+}
+.cta-box div {
+    margin-left: 48px;
+    max-width: 30vw;
+    margin-bottom: 24px;
+}   
+.cta-button {
+    border: 1px solid white;
+    border-radius: 6px;
+    background-color: #3882f6;
+    color: white;
+    padding: 4px 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 48px;
+}
 /*This section contains image alignment for the placeholder box*/
 .hero-image-right {
     display: flex;
@@ -146,4 +177,7 @@ b {
 justify-self: flex-end;
 text-align: center;
 padding: 36px;
+}
+div .cta-box p {
+    margin-bottom: 0;
 }
